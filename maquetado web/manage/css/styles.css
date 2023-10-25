@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-size: 16px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    /* border: 2px solid red */
+}
+
+a{
+    text-decoration: none;
+    color: rgb(29, 30, 37);
+}
+
+a:hover{
+    color: rgb(216, 216, 216);
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    padding-right: 25px;
+}
+
+header button{
+    color: white;
+    background-color: rgb(242, 95, 58);
+    border: none;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    padding: 10px 25px;
+}
+
+header img.hamburger{
+    display: none;
+}
+
+button{
+    color: white;
+    background-color: rgba(243, 96, 59, 1);
+    box-shadow: 0px 4px 8px rgba(243, 96, 59, 0.5);
+    border-radius: 50px;
+    border: none;
+    padding: 10px 25px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(252, 163, 136);
+}
+
+button.numList:hover {
+    cursor: auto;
+    background-color: rgba(243, 96, 59, 1);
+    bottom: unset;
+}
+
+section{
+    display: flex;
+    margin-top: 40px;
+    width: 100vw;
+}
+
+section.home{
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section.home div.presentation{
+    width: 30%;
+}
+
+section.home div.presentation h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(35, 44, 81);
+}
+
+section.home div.presentation p{
+    margin: 20px 0px;
+    text-align: justify;
+    width: 80%;
+}
+
+section.home div.graphs img{
+    width: 40vw;
+}
+
+h3{
+    font-size: 2.5rem;
+    color: rgb(35, 44, 81);
+}
+
+section.aboutUs{
+    justify-content: space-evenly;
+}
+
+section.aboutUs div{
+    width: 35%;
+}
+
+section.aboutUs div.different p{
+    margin-top: 25px;
+    width: 70%;
+}
+
+section.aboutUs ol{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    counter-reset: ordered;
+    width: 35%;
+
+}
+
+section.aboutUs ol li{
+    width: 100%;
+}
+
+section.aboutUs ol li h4.subtitle{
+    display: flex;
+    align-items: center;
+}
+
+section.aboutUs ol li p{
+    padding-left: 90px;
+    color: rgba(179, 178, 183, 1);
+    margin-bottom: 35px;
+}
+
+section.aboutUs ol li h4{
+    color: rgb(35, 44, 81);
+    margin-left: 20px;
+}
+
+
+section.aboutUs ol h4.subtitle::before{
+    content: url("/img/Button.svg");
+    position: relative;
+    right: 15px;
+}
+
+section.testimonials{
+    flex-direction: column;
+    align-items: center;
+}
+
+section.testimonials div.cards{
+    display: flex;
+    margin-bottom: 70px;
+    margin-top: 60px;
+}
+
+section.testimonials div.cards article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    max-width: 30vw;
+    margin-top: 70px;
+    text-align: center;
+    position: relative;
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+section.testimonials div.cards article img{
+    max-width: 80px;
+    margin-bottom: 5px;
+    position: absolute;
+    top: -50px;
+}
+
+section.testimonials div.cards article h5{
+    margin: 20px;
+    color: rgb(63, 72, 104);
+}
+
+section.testimonials div.cards article p{
+    color: rgb(185, 185, 193);
+    width: 92%;
+}
+
+section.simplify{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 224px;
+    background-color: rgb(243, 97, 60);
+    margin-top: 100px;
+}
+
+section.simplify p{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    max-width: 470px;
+    margin-left: 165px;
+}
+
+section.simplify button.btnWhite{
+    background-color: white;
+    color: rgb(243, 96, 59);
+    margin-right: 165px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+section.simplify button.btnWhite:hover{
+    cursor: pointer;
+    color: rgb(252, 163, 136);
+}
+
+footer{
+    display: flex;
+    padding: 64px 164px;
+    background-color: rgb(30, 30, 38);
+    justify-content: space-between;
+}
+
+footer div.redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer div.redes div {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div.redes div a:hover{
+    /* color: orangered; */
+    cursor: pointer;
+    filter: invert(51%) sepia(16%) saturate(6705%) hue-rotate(336deg) brightness(97%) contrast(96%);
+    color: white;
+    /* color: orange; */
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+footer nav ul li{
+    color: white;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: rgb(242, 95, 58);
+}
+
+footer nav ul li.last{
+    margin-bottom: 0px;
+}
+
+footer div.inbox{
+    position: relative;
+    left: 60px;
+}
+
+footer div input{
+    background: #FFFFFF;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+footer div button{
+    box-shadow: none;
+}
+
+footer p{
+    position: absolute;
+    bottom: -1300px;
+    right: 100px;
+    color: rgba(249, 249, 249, 0.685);
+}
+
+
+@media (max-width: 375px) {
+
+    p{
+        color: rgb(216, 216, 216);
+        line-height: 30px;
+    }
+
+    h3{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    header{
+        width: 100vw;
+        justify-content: space-between;
+    }
+
+    header img{
+        max-width: 25vw;
+    }
+
+    header img.logo{
+        margin-left: 5%;
+    }
+
+    header img.hamburger{
+        display: inline-block;
+        margin-right: 5%;
+    }
+
+    header nav, header button{
+        display: none;
+    }
+
+    section.home{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    section.home div.presentation{
+        width: 95vw;
+    }
+
+    section.home div.presentation h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    section.home div.presentation p{
+        text-align: center;
+        width: 90%;
+        margin-left: 5vw;
+        margin-top: 10px;
+    }
+
+    section.home div.presentation button{
+        margin: 10px 30%;
+    }
+
+    section.home div.graphs img{
+        width: 90vw;
+    }
+    
+    section.aboutUs{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.aboutUs div{
+        width: 90vw;
+    }
+
+    section.aboutUs ol{
+        width: 95vw;
+        padding-left: 0;
+    }
+
+    section.aboutUs div.different p{
+        text-align: center;
+        width: 95%;
+        margin-left: 5vw;
+        margin-bottom: 50px;
+    }
+
+    section.aboutUs ol h4.subtitle{
+        background-color: rgb(255, 239, 234);
+        border-radius: 50px;
+    }
+
+    section.aboutUs ol li p{
+        padding-left: 0px;
+        margin-top: 15px;
+    }
+
+    section.testimonials div.cards article.anisha , section.testimonials div.cards article.richard{
+        display: none;
+    }
+
+    section.testimonials div.cards{
+        align-items: center;
+    }
+
+    section.testimonials div.cards article{
+        max-width: 90vw;
+        margin-top: 40px;
+    }
+
+    section.testimonials button{
+        margin-bottom: 30px;
+    }
+
+    section.simplify{
+        flex-direction: column;
+        /* align-items: center; */
+        height: fit-content;
+    }
+
+    section.simplify p{
+        margin-left: 0px;
+        text-align: center;
+        padding: 80px 5vw 30px;
+        line-height: 40px;
+        width: 90vw;
+    }
+
+    section.simplify button.btnWhite{
+        margin: 10px 31% 90px;
+    }
+
+    footer{
+        flex-direction: column-reverse;
+        padding: 64px 5vw;
+    }
+
+    footer div.inbox{
+        left: 0px;
+        margin-bottom: 60px;
+    }
+
+    footer div input{
+        width: 70%;
+    }
+
+    footer nav {
+        /* justify-content: space-between; */
+        width: 80vw;
+        margin-bottom: 60px;
+    }
+
+    footer nav ul li a{
+        font-weight:lighter;
+        color: rgb(216, 216, 216);
+    }
+
+    footer div.redes{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    footer div.redes div.icons{
+        margin: 0px 15px 45px;
+        justify-content: space-between;
+    }
+
+    footer div.redes div.icons img{
+        width: 8vw;
+        margin: 0px 5vw;
+    }
+
+    footer div.redes img{
+        max-width: 40vw;
+    }
+
+    footer p{
+        bottom: -2715px;
+        right: 90px;
+        color: rgb(61, 61, 75);
+        font-size: 0.7rem;
+    }
+}
