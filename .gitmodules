@@ -1,3 +1,6 @@
 [submodule "maquetado web/TPFinalDesarrollo"]
 	path = maquetado web/TPFinalDesarrollo
 	url = https://github.com/AdrianDBG/TPFinalDesarrollo.git
+[submodule "maquetado web/ArtGallery"]
+	path = maquetado web/ArtGallery
+	url = https://github.com/rivasmati/ArtGallery.git
