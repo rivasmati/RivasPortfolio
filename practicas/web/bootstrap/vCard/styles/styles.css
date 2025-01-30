@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:wght@200&family=Yeseva+One&display=swap');
+
+*{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 64px;
+
+    margin: 0;
+    position: relative;
+    top: 25px;
+    color: white;
+}
+
+article{
+    width: 640px;
+    height: 700px;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: repeat;
+    border-radius: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 33%;
+    border-radius: 50px 50px 0 0;
+    border-bottom: 5px solid #3b1417;
+}
+
+.intro img{
+    width: 200px;
+    position: relative;
+    top: 15px;
+}
+
+.avatar-container{
+    background-color: rgba(213, 137, 54, 0.9);
+    border-radius: 150px;
+    max-width: 300px;
+    position: relative;
+    top: 40px;
+}
+
+.presentation{
+    column-count: 2;
+    margin: 0 50px;
+    padding: 10PX;
+    position: relative;
+    top: 40px;
+
+    background-color: rgba(164, 66, 0, 0.7);
+    border-radius: 15px;
+}
+
+.presentation p{
+    margin: 0;
+    opacity: 1;
+    color: white;
+}
+
+.media{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.media img{
+    width: 80px;
+}

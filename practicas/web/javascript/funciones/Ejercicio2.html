@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <h1>Ejercicio 2</h1>
+
+    <p>Al presionar el siguiente botón deberá ingresar 2 números, y recibira como respuesta la suma y el producto de estos</p>
+    <button onclick="calculadora()">Calcular</button>
+
+    <script>
+        function calculadora() {
+            var num1 = +prompt("Ingrese un número")
+            var num2 = +prompt("Ingrese otro número")
+
+            if (isNaN(num1) || isNaN(num2)) {
+                // No es un número
+                alert('No ingresaste un número, presione el botón para ingresar nuevamente')
+            } else {
+                // Es un número
+                var suma = num1 + num2
+                var multiplicacion = num1 * num2
+
+                alert("La suma entre los números es: " + suma + ", y la multiplicación entre estos es: " + multiplicacion)
+            }
+        }
+    </script>
+</body>
+</html>

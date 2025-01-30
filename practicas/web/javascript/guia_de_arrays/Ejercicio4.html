@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <h1>Ejercicio 4</h1>
+
+    <button onclick="solicitarNumero(arcoiris,colores)">Solicitar número</button>
+
+    <script>
+        var arcoiris = ["#ff0000", "#ffa500", "#ffff00", "#008000", "#0000ff", "#4b0082", "#ee82ee"]
+        var colores = ["Rojo", "Naranja", "Amarillo", "Verde", "Azul", "Violeta", "Rosa"];
+
+        function solicitarNumero(hexadecimal, nombre) {
+            var numero = parseInt(prompt("Ingrese un número del 1 al 7:"));
+
+            if (numero >= 1 && numero <= 7) {
+                var hexadecimalSeleccionado = hexadecimal[numero - 1];
+                var colorSeleccionado = nombre[numero - 1];
+                var posicion = numero - 1
+
+                document.write('<div class="color-div" style="background-color:' + hexadecimalSeleccionado + '">El color en la posición ' + posicion + ' es el ' + colorSeleccionado + '</div>');
+            } else {
+                alert("Por favor ingrese un número válido del 1 al 7.");
+            }
+        }
+
+        
+
+
+    </script>
+
+    
+</body>
+</html>

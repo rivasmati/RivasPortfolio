@@ -1,0 +1,52 @@
+body {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contenido {
+    display:flex;
+    max-width: 60em;
+}
+
+.apellido {
+    width: 44em;
+}
+
+.datos {
+    width: 16em;
+    padding-right: 10px;
+}
+
+.nombre {
+    display: flex;
+}
+
+.personajes {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.principales {
+    width: 22em;
+    padding-right: 15px;
+}
+
+.secundarios {
+    width: 22em;
+}
+
+.resumen {
+    column-count: 2;
+    padding-bottom: 15px;
+}
+
+.resumen p {
+    margin: 0;
+}

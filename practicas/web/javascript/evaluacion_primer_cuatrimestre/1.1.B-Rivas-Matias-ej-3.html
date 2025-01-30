@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+
+    <h1>Ejercicio 3</h1>
+    
+    <script>
+        //Desarrolla un juego de adivinanzas. Utiliza una estructura de bucle do-while para permitir que el jugador realice múltiples intentos hasta que adivine el número correcto. Genera aleatoriamente un número entero entre 1 y 20 que el jugador debe adivinar. Utiliza condicionales para informar al jugador si su intento es demasiado alto, demasiado bajo o correcto. Al final del juego, muestra la cantidad de intentos que le llevó al jugador adivinar el número. Si el usuario intenta arriesgar con un número fuera del rango, advertirle pero no sumar una chance desperdiciada (no cuenta como intento).
+
+        const MAX = 20
+        const MIN = 1
+        var numCorrecto = Math.round(Math.random() * (MAX - MIN) + MIN) 
+
+        var intento = 0
+        var accIntentos = 0
+        alert('Vamos a jugar a las adivinanzas!')
+        console.log(numCorrecto);
+
+        do {
+            intento = +prompt('Ingresa un numero del 1 al 20 para adivinar el número generado por la computadora')
+
+            if (intento < MIN || intento > MAX) {
+                alert('Ingresaste un numero fuera de rango propuesto, intenta otra vez')
+            }else{
+                accIntentos++
+                if (intento == numCorrecto) {
+                    alert('Ganaste! Adivinaste el número! Tardaste: ' + accIntentos + ' intentos')
+                }else if (intento < numCorrecto) {
+                    alert('Buen intento! El número correcto es MAYOR al número que ingresaste')
+                }else if (intento > numCorrecto) {
+                    alert('Buen intento! El número correcto es MENOR al número que ingresaste')
+                }
+
+            }
+        } while (intento != numCorrecto);
+
+        document.write('<h2>GANASTE!!</h2>')
+        document.write('<p>Número correcto: ' + numCorrecto + '</p>')
+        document.write('<p>Cantidad de intentos: ' + accIntentos + '</p>')
+
+    </script>
+</body>
+</html>

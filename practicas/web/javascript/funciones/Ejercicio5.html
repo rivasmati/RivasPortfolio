@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+</head>
+<body>
+    <h1>Ejercicio 5</h1>
+
+    <button onclick= calculadora()>Calcular</button>
+
+    <script>
+        function suma(x,y) {
+            return x + y
+        }
+
+        function resta(x,y) {
+            return x - y
+        }
+
+        function multiplicacion(x,y) {
+            return x * y
+        }
+
+        function division(x,y) {
+            if(y == 0){
+                return "No se puede dividir entre cero"
+            }else{
+                return x / y
+            }
+        }
+
+        function validarNumero(num) {
+            return !isNaN(parseFloat(num)) && isFinite(num);
+        }
+
+        function calculadora() {
+            var num1 = +prompt("Ingresa un número")
+            var num2 = +prompt("Ingresa otro número")
+
+            if (validarNumero(num1) && validarNumero(num2)) {
+                var resultadoSuma = suma(num1,num2)
+                var resultadoResta = resta(num1,num2)
+                var resultadoMultiplicacion = multiplicacion(num1,num2)
+                var resultadoDivision = division(num1,num2)
+
+                alert("Los resultados de las operaciones son: \nSuma: " + resultadoSuma + "\nResta: " + resultadoResta + "\nMultiplicación: " + resultadoMultiplicacion + "\nDivisión: " + resultadoDivision)
+            } else {
+                alert("Por favor ingresa valores numéricos válidos.")
+            }
+        }
+    </script>
+</body>
+</html>

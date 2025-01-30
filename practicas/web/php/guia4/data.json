@@ -1,0 +1,12 @@
+[
+    {
+        "nombre": "Auriculares",
+        "precio": "9000",
+        "en_stock": true
+    },
+    {
+        "nombre": "Teclado",
+        "precio": "5000",
+        "en_stock": true
+    }
+]

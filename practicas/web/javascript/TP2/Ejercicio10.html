@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 10</title>
+
+    <script>
+        var valorHora = +prompt('Ingresa cuanto cobras por hora trabajada')
+        var cantHorasDia = +prompt('Ingresa cuantas horas trabajas por dia')
+        var antiguedad = +prompt('Ingresa tus años de antigüedad en la empresa')
+        var salarioBruto
+        var salarioNeto
+
+        salarioBruto = valorHora * cantHorasDia * 22 //dias habiles por mes
+
+        
+        if (antiguedad >= 5 && antiguedad <= 10) {
+            salarioNeto = (salarioBruto * 0.8) + 1000
+        }else if (antiguedad > 10){
+            salarioNeto = (salarioBruto * 0.8) + 1500
+        }else{
+            salarioNeto = salarioBruto * 0.8
+        }
+
+        document.write('<p>El salario bruto es de $' + salarioBruto + '</p><p>El salario neto es de $' + salarioNeto + '</p>')
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

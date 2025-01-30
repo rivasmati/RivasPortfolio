@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+</head>
+<body>
+    <script>
+        let clave = prompt("Ingrese una palabra clave que tenga entre 5 y 10 caracteres, ademas que contenga números y vocales")
+        let numero = false
+        let vocal = false
+        
+        console.log(clave.length);
+        
+        for (let i = 0; i < clave.length; i++) {
+            console.log(clave[i]);
+            if (!isNaN(clave[i])) {
+                numero = true
+            }
+            if ('aeiouAEIOU'.indexOf(clave[i] !== -1)) {
+                vocal = true
+            }
+        }
+        console.log(numero);
+        console.log(vocal);
+        if (clave.length < 5 || clave.length > 10 || numero == false || vocal == false) {
+            alert("La palabra ingresada no respeta los parametros indicados")
+        }else{
+            document.write("<p>" + clave + "<p>")
+        }
+    </script>
+</body>
+</html>

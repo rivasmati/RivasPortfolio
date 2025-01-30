@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 10</title>
+
+    <script>
+        var valorHora = +prompt("Ingresar el valor por hora trabajada: ")
+        var cantHoras = +prompt("Ingresar la cantidad de horas trabajadas por día: ")
+        var sueldoBruto = 0
+        var sueldoNeto = 0
+        var sueldoNetoAnual = 0
+    </script>
+
+    <h1>Ejercicio 10</h1>
+
+    <script>    
+        sueldoBruto = valorHora * cantHoras * 20 //promedio dias laborales por mes 
+        sueldoNeto = sueldoBruto - (sueldoBruto/5)
+        sueldoNetoAnual = sueldoNeto * 12
+        document.write('<p>El sueldo neto anual es: ' + sueldoNetoAnual + '</p>')
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

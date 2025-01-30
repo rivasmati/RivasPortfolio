@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <h1>Ejercicio 3</h1>
+
+    <script>
+        var nota
+
+        var alumno = prompt('Ingresar el nombre del alumno. En caso de no contar con más alumnos, ingrese "fin".').toLowerCase()
+        while (alumno != 'fin') {
+            nota = +prompt('Ingrese la nota del alumno')
+            document.write('<p>' + alumno + ': ' + nota + '</p>')
+            alumno = prompt('Ingresar el nombre del alumno. En caso de no contar con más alumnos, ingrese "fin".').toLowerCase()
+        }
+    </script>
+
+    
+    
+</body>
+</html>

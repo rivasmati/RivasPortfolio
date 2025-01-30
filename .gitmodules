@@ -4,3 +4,6 @@
 [submodule "maquetado web/ArtGallery"]
 	path = maquetado web/ArtGallery
 	url = https://github.com/rivasmati/ArtGallery.git
+[submodule "maquetado web/SinFiltroCafe"]
+	path = maquetado web/SinFiltroCafe
+	url = https://github.com/rivasmati/SinFiltroCafe.git

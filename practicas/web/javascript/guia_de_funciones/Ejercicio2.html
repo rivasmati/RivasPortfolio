@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <script>
+        let nombre = prompt("Ingresa tu nombre")
+        let apellido = prompt("Ingresa tu apellido")
+        let edad = +prompt("Ingresa tu edad")
+        let checkNum = false
+        let checkMay = false
+
+        if(isNaN(nombre) && isNaN(apellido) && !isNaN(edad)){
+            checkNum = true
+        }
+
+        let mayNombre = nombre[0].toUpperCase()
+        let mayApellido = apellido[0].toUpperCase()
+
+        if (mayNombre === nombre[0] && mayApellido === apellido[0]) {
+            checkMay = true
+        }
+
+        if (checkMay == true && checkNum == true) {
+            document.write('<ul><li>Nombre: ' + nombre + '</li><li>Apellido: ' + apellido + '</li><li>Edad: ' + edad + '</li></ul>')
+        } else {
+            alert("Datos mal ingresados")
+        }
+
+    </script>
+
+    
+</body>
+</html>

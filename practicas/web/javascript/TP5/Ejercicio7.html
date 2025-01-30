@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 7</title>
+</head>
+<body>
+
+    <h1>Ejercicio 7</h1>
+
+    <ul>
+
+    <script>
+        var max = 15
+        var min = 5
+        var numero = 0
+        var mayor = 0
+
+        while (numero != max) {
+            numero = Math.round(Math.random()*(max - min) + min)
+            console.log(numero);
+            document.write('<li>' + numero + '</li>')
+            if (numero > mayor && numero != max) {
+                mayor = numero
+            }
+        }
+
+        document.write('</ul><p>El numero mas alto que salió fue el ' + mayor + '</p>')
+
+    </script>
+
+    
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+    background-color: rgba(249, 248, 113, 0.4);
+}
+
+header, footer{
+    background-color: #FFC75F;
+    margin-top: 0px;
+    padding: 0px 5px 0px;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 42px;
+    text-decoration: underline;
+}
+
+h2{
+    color: #845EC2;
+    font-weight: 600;
+}
+
+p strong{
+    font-style: italic;
+}
+
+a:hover{
+    color: #FF6F91;
+    cursor: pointer;
+}

@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+/*
+colores
+#92cb6e
+#489a37
+#ff3708
+#e00b24
+#412e7a
+*/
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;    
+    outline: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.container{
+    width: 1170px;
+    padding: 0 12px;
+    margin: 0 auto;
+}
+
+.numeros{
+    padding: 10px 10px;
+    margin: 10px 0px;
+}
+
+.fila1{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fila2{
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+}
+.fila3{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.numeros li{
+    color: white;
+    padding: 10px 40px;
+    font-size: 18px;
+}
+
+
+.uno{
+    background-color:#92cb6e ;
+}
+.dos{
+    background-color:#489a37 ;
+}
+.tres{
+    background-color:#ff3708 ;
+}
+.cuatro{
+    background-color:#e00b24 ;
+}
+.cinco{
+    background-color: #412e7a;
+}
+.seis{
+    background-color:#070311 ;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30% ;
+    background-color: #070311;
+    color: wheat;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}

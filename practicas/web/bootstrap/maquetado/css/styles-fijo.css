@@ -1,0 +1,33 @@
+body {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contenido {
+    display:flex;
+    max-width: 960px;
+}
+
+.datos {
+    min-width: 250px;
+}
+
+.nombre {
+    display: flex;
+}
+
+.personajes {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.principales {
+    padding-right: 15px;
+}

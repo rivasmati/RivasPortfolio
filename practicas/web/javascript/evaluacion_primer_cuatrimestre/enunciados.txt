@@ -1,0 +1,27 @@
+Introducción a la lógica de la programación
+
+Parcial
+
+Instrucciones:
+
+Realiza los siguientes ejercicios en HTML y JavaScript (puedes usar pseudocódigo y algoritmos como comentarios). Crea tres archivos, cada uno correspondiente a un ejercicio. El nombre de cada documento debe seguir el patrón:
+
+1.1.[x]-Apellido-Nombre-ej-[y].html
+Reemplazar [x] por la comisión
+Reemplazar [y] por el nro de ejercicio
+
+Una vez realizados, revisados y verificados, carga los archivos directamente sin comprimir en la tarea asignada en Classroom. Adjunta la consigna también.
+
+Importante:
+
+Asegúrate de que cada archivo funcione correctamente de manera independiente.
+Si utilizas algoritmo o pseudocódigo, coméntalo adecuadamente en el código fuente para explicar tu lógica.
+Verifica que los archivos HTML puedan ejecutarse sin problemas.
+No olvides adjuntar la consigna que te ha tocado.
+
+ejercicio1: Para este ejercicio debes usar correctamente la notación “camel case” para el nombre de tus variables. En 2 variables almacena tu nombre y tu apellido. Luego, crea un algoritmo que construya un mensaje que diga “Hola profe, este es mi parcial. Soy [nombre y apellido].” Guarda este mensaje en otra variable y utilízala para mostrar la información en la consola, mediante un cuadro de alerta y en un párrafo en el documento HTML.
+
+ejercicio2: Solicitados los tres lados de un triángulo a un usuario e informar si es equilátero (los 3 lados iguales), isósceles (2 lados iguales) o escaleno (los 3 lados distintos). Para este ejercicio sólo se puede usar el operador OR (||).
+
+ejercicio3: Desarrolla un juego de adivinanzas. Utiliza una estructura de bucle do-while para permitir que el jugador realice múltiples intentos hasta que adivine el número correcto. Genera aleatoriamente un número entero entre 1 y 20 que el jugador debe adivinar. Utiliza condicionales para informar al jugador si su intento es demasiado alto, demasiado bajo o correcto. Al final del juego, muestra la cantidad de intentos que le llevó al jugador adivinar el número. Si el usuario intenta arriesgar con un número fuera del rango, advertirle pero no sumar una chance desperdiciada (no cuenta como intento).
+

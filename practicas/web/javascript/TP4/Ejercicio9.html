@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 9</title>
+    <h1>Ejercicio 9</h1>
+
+    <script>
+        var numero
+        var mayor = 0
+        var menor = 99999999999999999999
+        var promedio
+        var total = 0
+
+        for (let i = 0; i < 5; i++) {
+            numero = +prompt("Ingrese un numero")
+
+            if (numero > mayor) {
+                mayor = numero
+            }
+            if (numero < menor) {
+                menor = numero
+            }
+
+            console.log(numero);
+
+            total = total + numero
+            promedio = total / 5
+        }
+
+        document.write('<p>El numero menor es ' + menor + '</p>')
+        document.write('<p>El numero mayor es ' + mayor + '</p>')
+        document.write('<p>El promedio es ' + promedio + '</p>')
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,68 @@
+1. Escribir los pasos secuenciales del algoritmo que permita dibujar un círculo
+en una hoja.
+
+1- Tener algo para escribir (lapiz, lapicera, etc) y una hoja
+2- Colocar la hoja en una superficie que te permita dibujar en ella
+3- Agarrar el objeto para escibir con tu mano hábil
+4- Acercar la punta del objeto a la hoja a tal punto que se toque, sin apretar
+5- Realizar un movimiento circular sobre la hoja, sin despegar la punta del objeto, hasta formar un circulo
+
+
+2. Escribir los pasos secuenciales del algoritmo que permita dibujar un
+cuadrado en una hoja.
+
+1- Tener algo para escribir (lapiz, lapicera, etc) y una hoja
+2- Colocar la hoja en una superficie que te permita dibujar en ella
+3- Agarrar el objeto para escibir con tu mano hábil
+4- Acercar la punta del objeto a la hoja a tal punto que se toque, sin apretar
+5- Realizar un movimiento recto, sin despegar la punta del objeto de la hoja, de tal longitud que te permita dibujar otra igual pero rotando el angulo 90°
+hacia alguno de los lados
+6- Sin levantar la punta del objeto de la hoja, realizar otro movimiento recto de la misma longitud que el anterior
+7- Repetir la secuencia 5 y 6 siempre rotando el angulo a 90° para el mismo lado, hasta que el final de la ultima recta dibujada toque el inicio de la 
+primer recta dibujada
+8- Comprobar que la figura dibujada tenga 4 lados de la misma longitud, unidos entre si por angulos de 90°
+
+
+3. Escribir los pasos secuenciales del algoritmo que permita dibujar un
+rectángulo en una hoja.
+
+1- Tener algo para escribir (lapiz, lapicera, etc) y una hoja
+2- Colocar la hoja en una superficie que te permita dibujar en ella
+3- Agarrar el objeto para escibir con tu mano hábil
+4- Acercar la punta del objeto a la hoja a tal punto que se toque, sin apretar
+5- Realizar un movimiento recto, sin despegar la punta del objeto de la hoja, de tal longitud que te permita dibujar otro de la mitad de la longitud pero 
+rotando el angulo 90° hacia alguno de los lados
+6- Sin levantar la punta del objeto de la hoja, realizar otro movimiento recto de la mitad de la longitud que el anterior
+7- Repetir la secuencia 5 y 6 siempre rotando el angulo a 90° para el mismo lado, hasta que el final de la ultima recta dibujada toque el inicio de la 
+primer recta dibujada
+8- Comprobar que la figura dibujada tenga 4 lados de 2 longitudes distintas enfrentadas, unidos entre si por angulos de 90°
+
+
+4. Escribir los pasos secuenciales del algoritmo que permita dibujar un
+triángulo en una hoja.
+
+1- Tener algo para escribir (lapiz, lapicera, etc) y una hoja
+2- Colocar la hoja en una superficie que te permita dibujar en ella
+3- Agarrar el objeto para escibir con tu mano hábil
+4- Acercar la punta del objeto a la hoja a tal punto que se toque, sin apretar
+5- Realizar un movimiento recto, sin despegar la punta del objeto de la hoja, de tal longitud que te permita dibujar otra igual pero rotando el angulo 60°
+hacia alguno de los lados
+6- Sin levantar la punta del objeto de la hoja, realizar otro movimiento recto de la misma longitud que el anterior
+7- Repetir la secuencia 5 y 6 siempre rotando el angulo a 60° para el mismo lado, hasta que el final de la ultima recta dibujada toque el inicio de la 
+primer recta dibujada
+8- Comprobar que la figura dibujada tenga 3 lados de la misma longitud, unidos entre si por angulos de 60°
+
+
+5. Escribir los pasos secuenciales del algoritmo que permita dibujar un
+hexágono en una hoja.
+
+1- Tener algo para escribir (lapiz, lapicera, etc) y una hoja
+2- Colocar la hoja en una superficie que te permita dibujar en ella
+3- Agarrar el objeto para escibir con tu mano hábil
+4- Acercar la punta del objeto a la hoja a tal punto que se toque, sin apretar
+5- Realizar un movimiento recto, sin despegar la punta del objeto de la hoja, de tal longitud que te permita dibujar otra igual pero rotando el angulo 120°
+hacia alguno de los lados
+6- Sin levantar la punta del objeto de la hoja, realizar otro movimiento recto de la misma longitud que el anterior
+7- Repetir la secuencia 5 y 6 siempre rotando el angulo a 120° para el mismo lado, hasta que el final de la ultima recta dibujada toque el inicio de la 
+primer recta dibujada
+8- Comprobar que la figura dibujada tenga 6 lados de la misma longitud, unidos entre si por angulos de 120°

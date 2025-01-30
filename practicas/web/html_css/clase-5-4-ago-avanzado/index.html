@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- viewport borrado -->
+    <title>clase 5 / Sobre las tag de estructura semanticas y no semántias</title>
+</head>
+
+<body>
+    <header>
+        <!-- en este ejemplo del petshop -->
+        <h1>MiMascota</h1>
+        <!-- colocar nav luego -->
+        <nav>
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#nosotros">NOSOTROS</a></li>
+                <li><a href="#servicios">SERVICIOS</a></li>
+                <li><a href="#productos">PRODUCTOS</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- banner -->
+    <figure><!-- pueden ir, tag img, tag video, tag canvas (grafico en html) -->
+        <img src="img/gatito-perrito.jpg" alt="mascotas, gatito + perrito" title="mascotas, gatito + perrito">
+        <figcaption>michi y firu tomando aire en el bosque</figcaption>
+    </figure>
+    <!-- fin banner -->
+    <!-- Todo el contenido central o desarrolo del sitio -->
+    <section id="nosotros">
+        <h2>Acerca de nosotros
+        </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit, ex vel interdum dapibus, neque
+            nibh efficitur ipsum, ac cursus nibh urna sit amet est. Aenean viverra in eros sit amet scelerisque. Vivamus
+            quis congue lacus, eget dapibus dolor. Proin at pellentesque massa. Nullam lacinia lacus est, eu aliquam
+            purus blandit et. Donec lacinia purus sit amet condimentum placerat. Proin libero dolor, efficitur eu.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit, ex vel interdum dapibus, neque
+            nibh efficitur ipsum, ac cursus nibh urna sit amet est. Aenean viverra in eros sit amet scelerisque. Vivamus
+            quis congue lacus, eget dapibus dolor. Proin at pellentesque massa. Nullam lacinia lacus est, eu aliquam
+            purus blandit et. Donec lacinia purus sit amet condimentum placerat. Proin libero dolor, efficitur eu.
+        </p>
+    </section>
+    <!-- fin nosotros -->
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit, ex vel interdum dapibus,</p>
+        <!-- 1er servicio article-->
+        <article>
+            <figure>
+                <img src="img/clinica-veterinaria.png" alt="Cínica veterinaria">
+            </figure>
+            <h3>Cínica veterinaria
+            </h3>
+            <p>Nibh efficitur ipsum, ac cursus nibh urna sit amet est. Aenean viverra in eros sit amet scelerisque. </p>
+        </article>
+        <!--fin 1er servicio article-->
+
+        <!-- 2do servicio article-->
+        <article>
+            <figure>
+                <img src="img/banio-pelucqueria.png" alt="Baño y peluquería">
+            </figure>
+            <h3>Baño y peluquería
+            </h3>
+            <p>Nibh efficitur ipsum, ac cursus nibh urna sit amet est. Aenean viverra in eros sit amet scelerisque. </p>
+        </article>
+        <!--fin 2do servicio article-->
+
+        <!-- 3er servicio article-->
+        <article>
+            <figure>
+                <img src="img/alojamiento-mascotas.png" alt="Alojamiento para mascotas">
+            </figure>
+            <h3>Alojamiento para mascotas
+            </h3>
+            <p>Nibh efficitur ipsum, ac cursus nibh urna sit amet est. Aenean viverra in eros sit amet scelerisque. </p>
+        </article>
+        <!--fin 3er servicio article-->
+    </section>
+    <!-- fin servicios -->
+    <section id="productos">
+        <h2>Productos exclusivos
+        </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quaerat dicta deleniti.</p>
+        <!-- 4 article con cada uno de los productos -->
+
+        <article>
+            <figure><img src="img/Accesorios.png" alt="Accesorios"></figure>
+            <h3>Accesorios</h3>
+        </article>
+
+        <article>
+            <figure><img src="img/Indumentaria.png" alt="Indumentaria"></figure>
+            <h3>Indumentaria</h3>
+        </article>
+
+        <article>
+            <figure><img src="img/Complementos.png" alt="Complementos"></figure>
+            <h3>Complementos</h3>
+        </article>
+
+        <article>
+            <figure><img src="img/Alimentos.png" alt="Alimentos"></figure>
+            <h3>Alimentos</h3>
+        </article>
+
+    </section>
+    <!-- fin productos -->
+    <!-- fin todo el contenido central o desarrolo del sitio -->
+    <footer>
+        <p>MiMascota</p>
+
+        <p>CONTACTO</p>
+
+        <ul>
+            <li><a href="mailto:hola@mimascota.com.ar">hola@mimascota.com.ar</a></li>
+            <li><a href="tel:+011123456">011123456</a></li>
+            <li><abbr title="avenida">Av.</abbr> Cabildo 3050 CABA</li>
+            <li><abbr title="lunes">Lu.</abbr> a <abbr title="sabado">Sa.</abbr> de 9 a 18hs</li>
+        </ul>
+
+        <hr>
+        <p>SEGUINOS EN REDES</p>
+
+        <ul>
+            <li><a href="https://facebook.com/" target="new">Facebook</a></li>
+            <li><a href="https://instagram.com/" target="new">Instagram</a></li>
+            <li><a href="https://youtube.com/" target="new">YouTube</a></li>
+        </ul>
+
+    </footer>
+</body>
+
+</html>

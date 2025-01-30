@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+
+    <h1>Ejercicio 4</h1>
+    <script>
+        var pregunta = confirm('Desea que se genere un número al azar entre 0 y 10 inclusive?')
+
+        while (pregunta == true) { 
+            var numero = Math.round(Math.random()*10)
+            alert(numero)
+            pregunta = confirm('Desea que se genere un número al azar entre 0 y 10 inclusive?')
+        }
+    </script>
+    
+</body>
+</html>

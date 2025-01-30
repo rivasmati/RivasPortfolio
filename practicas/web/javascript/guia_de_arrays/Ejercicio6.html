@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+</head>
+<body>
+    <h1>Ejercicio 6</h1>
+    <button onclick="mostrarDatos(datos)">Mostrar datos personales</button>
+
+    <script>
+        var datos = new Array();
+        datos["nombre"] = "Matías";
+        datos["apellido"] = "Rivas";
+        datos["email"] = "machurivas@gmail.com";
+        datos["linkedin"] = "@Matias-Rivas";
+        datos["instagram"] = "@Matiii_rivas";
+
+        function mostrarDatos(array) {
+    
+            document.write("<ul>");
+
+                for (const i in array) {
+                    if (Object.hasOwnProperty.call(array, i)) {
+                        document.write('<li>' + i + ': ' + array[i] + '</li>')
+                    }
+                }
+
+            document.write("<ul>");
+        }
+
+    </script>
+
+</body>
+</html>

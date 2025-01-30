@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 6</title>
+</head>
+<body>
+    <h1>Ejercicio 6</h1>
+
+    <script>
+        var dado = 0
+        var acc = 0
+        var cantPorNum = [0,0,0,0,0,0]
+            
+        while (acc < 10) {
+            dado = Math.ceil(Math.random()*6)
+            
+            if (dado == 1) {
+                cantPorNum[dado-1]++
+            }
+            if (dado == 2) {
+                cantPorNum[dado-1]++
+            }
+            if (dado == 3) {
+                cantPorNum[dado-1]++
+            }
+            if (dado == 4) {
+                cantPorNum[dado-1]++
+            }
+            if (dado == 5) {
+                cantPorNum[dado-1]++
+            }
+            if (dado == 6) {
+                cantPorNum[dado-1]++
+            }
+
+            document.write('<li>El número que salió en el dado fue ' + dado + '</li>')
+            acc++
+        }
+
+        var buscador = Math.max(...cantPorNum)
+
+        var mayor = cantPorNum.indexOf(buscador) + 1
+        
+        document.write('</ul><h2>El número que más salió fue  el ' + mayor + '</h2>')     
+    </script>
+    
+</body>
+</html>

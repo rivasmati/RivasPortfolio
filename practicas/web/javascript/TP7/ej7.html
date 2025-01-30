@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 7</title>
+
+    <h1>Ejercicio 7</h1>
+
+    <script>
+        var num = []
+        var total = 0
+        var promedio
+        for (let i = 0; i < 5; i++) {
+            num[i] = +prompt("Ingresa un numero")
+        }
+        for (let i = 0; i < num.length; i++) {
+            console.log(num[i]);
+            document.write('<p>Numero ' + (i+1) + ' es: ' + num[i] + '</p>')
+            total += num[i]
+        }
+        promedio = total / 5
+        console.log(total);
+        document.write('<p>El total de los numeros ingresados es: ' + total + '</p>')
+        console.log(promedio);
+        document.write('<p>El promedio de los numeros ingresados es: ' + promedio + '</p>')
+
+    </script>
+</head>
+<body>
+    
+    
+</body>
+</html>

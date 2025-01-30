@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+</head>
+<body>
+    <h1>Ejercicio 5</h1>
+
+    <button onclick="generarColor(arcoiris)">Generar color</button>
+
+    <script>
+        var arcoiris = ["#ff0000", "#ffa500", "#ffff00", "#008000", "#0000ff", "#4b0082", "#ee82ee"]
+
+        function generarColor(array) {
+            
+            var numero = Math.round(Math.random() * 6)
+            console.log(numero);
+
+            document.write('<div style="height: 200px; width: 200px; background-color: ' + array[numero] + ';"></div>')
+        }
+
+    </script>
+
+    
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 2</title>
+
+    <script>
+        var nombre;
+        var categoria;
+
+        nombre = prompt("Ingrese su nombre");
+        categoria = confirm("Es usted docente?")
+
+        if (categoria == true){
+            alert("Hola " + nombre + ", sos docente")
+        }else{
+            categoria = confirm("Es usted alumno?")
+            if (categoria == true){
+                alert("Hola " + nombre + ", sos alumno")
+            }else{
+                categoria = confirm("Es usted administrativo?")
+                if (categoria == true) {
+                    alert("Hola " + nombre + ", sos administrativo")
+                    }else{
+                        alert("Categoría inexistente")
+                    }
+            }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

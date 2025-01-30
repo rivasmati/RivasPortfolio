@@ -1,0 +1,71 @@
+Easy to Use
+Every editing option is extremely well-thought to make it easy for you to find and work with to build your dream website.
+
+LEARN MORE <!--buscar flecha de iconos de bootstrap-->
+
+
+Select & Edit
+Every text, image, icon or button can be edited or replaced simply by selecting it and applying any customisation.
+
+LEARN MORE <!--buscar flecha de iconos de bootstrap-->
+
+Easy Interface
+No matter if you’ve used a visual page builder before, with this you’ll be a pro the second you start using it. 
+
+LEARN MORE <!--buscar flecha de iconos de bootstrap-->
+
+
+No Documentation
+The bread & butter of our platform are the pre-built design sections, called items that you can add to the page.
+
+LEARN MORE <!--buscar flecha de iconos de bootstrap-->
+
+Web Reinvented
+Just click & drag to create beautiful pages in a matter of minutes. No designer talent or coding skills necessary.
+
+LEARN MORE <!--buscar flecha de iconos de bootstrap-->
+
+
+What You See 
+This is a front-end page builder where what you see is what you get. We designed it so you can be in complete control.
+
+LEARN MORE <!--buscar flecha de iconos de bootstrap-->
+
+<!-- estos textos van en los primeros cards-->
+
+<!--card de seccion central-->
+
+Design Popups that Boost Your Client’s Conversions
+Many people were hoping that if the Democrats won control of Congress they would reverse the online
+
+Discorver >
+
+Learn the Most In-Demand Job Skill – Coding
+Do you remember the story of “The Wizard of Oz”? In this story we saw the characters of Dorothy.
+
+Discorver >
+
+Web Performance Mini Series: Animations
+Some people find it hard to find the right perfume. This may smell good when this is sprayed into the air.
+
+Discorver >
+
+5 Reasons To Choose A Notebook Now
+Cast iron cookware is an old fashioned form of cookware that still has a place in today’s world.
+
+Discorver >
+
+<!--fin de card de seccion central-->
+
+<!-- card de seccion nro 3 -->
+
+Learn the Most In-Demand Job Skill – Coding
+Do you remember the story of “The Wizard of Oz”? In this story we saw the characters of Dorothy.
+
+Design Popups that Boost Your Client’s Conversions
+Many people were hoping that if the Democrats won control of Congress they would reverse the online
+
+Design Popups that Boost Your Client’s Conversions
+Many people were hoping that if the Democrats won control of Congress they would reverse the online
+
+<!--fin card de seccion nro 3 -->

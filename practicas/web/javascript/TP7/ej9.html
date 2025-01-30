@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 9</title>
+
+    <script>
+        var valorHora = +prompt("Ingresar el valor por hora trabajada: ")
+        var cantHoras = +prompt("Ingresar la cantidad de horas trabajadas por día: ")
+        var sueldoBruto = 0
+        var sueldoNeto = 0
+    </script>
+
+    <h1>Ejercicio 9</h1>
+
+    <script>    
+        sueldoBruto = valorHora * cantHoras * 20 //promedio dias laborales por mes 
+        sueldoNeto = sueldoBruto - (sueldoBruto/5)
+        document.write('<p>El sueldo bruto mensual es: ' + sueldoBruto + '</p>')
+        document.write('<p>El sueldo neto mensual es: ' + sueldoNeto + '</p>')
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

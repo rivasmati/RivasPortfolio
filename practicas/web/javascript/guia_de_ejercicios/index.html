@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geometricas</title>
+
+    <script>
+        alert('Piense en una figura geométrica')
+        let respuesta = confirm('Tiene 3 o más lados?')
+
+        if (respuesta == true) {
+            respuesta = confirm('tiene 3 lados?')
+
+            if (respuesta == true) {
+                //es triangulo
+                respuesta = confirm('Su figura tiene un angulo de 90°?')
+
+                if (respuesta == true) {
+                    //es rectangular, isosceles o escaleno
+                    respuesta = confirm('Su figura tiene todos sus lados de distinta longitud?')
+
+                    if (respuesta == true) {
+                        //triangulo rectangulo escaleno
+                        alert('Su figura es un: ')
+                    } else {
+                        //triangulo rectagulo isosceles
+                        alert('Su figura es un: ')
+                    }
+                } else {
+                    //NO es rectangular
+                    respuesta = confirm('Su figura tiene todos sus lados de distinta longitud?')
+
+                    if (respuesta == true) {
+                        //Triangulo escaleno
+                        alert('Su figura es un: ')
+                    } else {
+                        //Triangulo equilatero o isosceles
+                        respuesta = confirm('Tu triangulo tiene todos sus lados de la misma longitud?')
+
+                        if (respuesta == true) {
+                            //triangulo equilatero
+                            alert('Su figura es un: ')
+                        } else {
+                            //triangulo isosceles
+                            alert('Su figura es un: ')
+                        }
+                    }
+                }
+            } else {
+                respuesta = confirm('Tiene 4 lados?')
+
+                if (respuesta == true) {
+                    respuesta = confirm('Su figura tiene sus 4 angulos rectos?')
+
+                    if (respuesta == true) {
+                        respuesta = confirm('Tu figura tiene sus 4 lados de la misma longitud?')
+
+                        if (respuesta == true) {
+                            //es un cuadrado
+                            alert('Su figura es un: ')
+                        } else {
+                            //es un rectangulo
+                            alert('Su figura es un: ')
+                        }
+                    } else {
+                        respuesta = confirm('Su figura tiene 2 pares de angulos iguales?')
+
+                        if (respuesta == true) {
+                            respuesta = confirm('Su figura tiene todos sus lados de la misma longitud?')
+
+                            if (respuesta == true) {
+                                //es un rombo
+                                alert('Su figura es un: ')
+                            } else {
+                                //es un romboide
+                                alert('Su figura es un: ')
+                            }
+                        } else {
+                            respuesta = confirm('Su figura tiene 2 lados paralelos y 2 que no lo son?')
+
+                            if (respuesta == true) {
+                                //es un trapecio
+                                alert('Su figura es un: ')
+                            } else {
+                                respuesta = confirm('Su figura tiene 2 pares de lados iguales?')
+
+                                if (respuesta == true) {
+                                    //es un trapezoide
+                                    alert('Su figura es un: ')
+                                } else {
+                                    //es un deltoide
+                                    alert('Su figura es un: ')
+                                }
+                            }
+                        }
+                    }
+                }else{
+                    respuesta = confirm('TIene MAS de 4 lados?')
+                    
+                    if (respuesta == true) {
+                        //es poligono
+                        respuesta = confirm('Su figura tiene todos sus lados o angulos iguales?')
+
+                        if (respuesta == true) {
+                            //es poligono regular
+                            alert('Su figura es un: ')
+                        } else {
+                            //es poligono irregular
+                            alert('Su figura es un: ')
+                        }
+                    }else{
+                        //Figura no valida
+                        alert('Su figura no es válida')
+                    }
+                }
+            }
+        }else{
+            //NO es poligono
+        }
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

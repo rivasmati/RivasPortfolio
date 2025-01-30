@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+</head>
+<body>
+    <script>
+        let nombre = prompt("Ingrese su nombre")
+        let apellido = prompt("Ingrese su apellido")
+
+        let checkNombre = 0
+        let checkApellido = 0
+
+        for (let i = 0; i < nombre.length; i++) {
+            if (isNaN(nombre[i])) {
+                checkNombre++
+            }
+        }
+
+        for (let i = 0; i < apellido.length; i++) {
+            if (isNaN(apellido[i])) {
+                checkApellido++
+            }
+        }
+
+        if (nombre.length == checkNombre && apellido.length == checkApellido) {
+            let numeroAleatorio = (Math.round(Math.random() * 10000))
+
+            let usuario = nombre.substring(0,2) + apellido.substring(0,2) + numeroAleatorio.toString().padStart(4,'0')
+
+            document.write('<p>' + usuario + '<p>')
+        }else{
+            alert("Se ingresaron caracteres que no son letras")
+        }
+
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 10</title>
+    <h1>Ejercicio 10</h1>
+
+    <script>
+        var numero
+        var cantPares = 0
+        var cantImpares = 0
+        var suma = 0
+        var promedio
+        var ganador
+
+        for (let i = 0; i < 5; i++) {
+            numero = +prompt("Ingresar un numero")
+
+            if (numero % 2 == 0) {
+                cantPares++
+            }else{
+                cantImpares++
+            }
+
+            suma += numero
+        }
+
+        document.write('<p>Cantidad de numeros impares ' + cantImpares + '</p>')
+        document.write('<p>Cantidad de numeros pares ' + cantPares + '</p>')
+        document.write('<p>La suma entre todos los numeros ingresados es ' + suma + '</p>')
+        
+        if (cantImpares > cantPares) {
+            document.write('<p>Se ingresaron mas <strong>Numeros Impares</strong> que numeros pares</p>')
+        }else{
+            document.write('<p>Se ingresaron mas <strong>Numeros Pares</strong> que numeros impares</p>')
+        }
+
+    </script>
+</head>
+<body>
+    <p><strong></strong></p>
+</body>
+</html>

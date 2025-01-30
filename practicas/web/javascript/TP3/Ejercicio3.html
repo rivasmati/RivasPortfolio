@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 3</title>
+
+    <script>
+        var dia
+
+        dia = prompt("Ingresa un numero del 1 al 7")
+
+        switch (dia) {
+            case "1":
+                document.write('<p>Hoy es lunes</p>')
+                break;
+                
+            case "2":
+                document.write('<p>Hoy es martes</p>')
+                break;
+
+            case "3":
+                document.write('<p>Hoy es miercoles</p>')
+                break;
+
+            case "4":
+                document.write('<p>Hoy es jueves</p>')
+                break;
+
+            case "5":
+                document.write('<p>Hoy es viernes</p>')
+                break;
+
+            case "6":
+            case "7":
+                document.write('<p>Fin de semana</p>')
+                break;
+
+            default:
+                console.log('El caracter ingresado " ' + dia + ' no es')
+                alert("dato inválido")
+                break;
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

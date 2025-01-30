@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <h1>Ejercicio 4</h1>
+
+    <p id="resultado"></p>
+
+    <script>
+        function division(x, y) {
+            return x/y
+        }
+
+        function validarNumero(num) {
+            return !isNaN(parseFloat(num)) && isFinite(num);
+        }       
+
+        var num1 = +prompt("Ingresa un número")
+        var num2 = +prompt("Ingresa otro número")
+
+        if (validarNumero(num1) && validarNumero(num2)) {
+
+            if(num2 == 0){
+                document.getElementById('resultado').textContent = "No se puede dividir entre cero";
+            }else{
+                var cociente = division(num1,num2)
+    
+                var resultadoParrafo = document.getElementById("resultado")
+                resultadoParrafo.textContent = "El cociente entre los números ingresados es: " + cociente 
+            }
+        } else {
+            alert("Por favor ingresa valores numéricos válidos.")
+        }
+    </script>
+</body>
+</html>

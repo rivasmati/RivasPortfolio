@@ -1,0 +1,4 @@
+.icono-azul{
+    filter: invert(98%) sepia(93%) saturate(4450%) hue-rotate(103deg) brightness(105%) contrast(102%);
+    width: 54px;
+}

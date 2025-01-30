@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 4</title>
+
+    <script>
+        var mes = +prompt("Ingrese un número entre 1 y 12 inclusive")
+        var estacion
+
+        if (mes == 12 || mes == 1 || mes == 2) {
+            estacion = "verano"
+        }else if (mes == 3 || mes == 4 || mes == 5) {
+            estacion = "otoño"
+        }else if (mes == 6 || mes == 7 || mes == 8) {
+            estacion = "invierno"
+        }else if (mes == 9 || mes == 10 || mes == 11) {
+            estacion = "primavera"
+        }
+        
+
+        switch (mes) {
+            case 1:
+                document.write('<p>Usted a ingresado el mes de enero, que pertenece a la estacion ' + estacion + '</p>')
+                break;
+
+            case 2:
+                document.write('<p>Usted a ingresado el mes de febrero, que pertenece a la estacion ' + estacion + '</p>')
+                break;
+
+            case 3:
+                document.write('<p>Usted a ingresado el mes de marzo, que pertenece a la estacion ' + estacion + '</p>')
+                break;
+
+            case 4:
+                document.write('<p>Usted a ingresado el mes de abril, que pertenece a la estacion ' + estacion + '</p>')
+                break;
+
+            case 5:
+                document.write('<p>Usted a ingresado el mes de mayo, que pertenece a la estacion ' + estacion + '</p>')
+                break;
+
+            case 6:
+                document.write('<p>Usted a ingresado el mes de junio, que pertenece a la estacion ' + estacion + '</p>')
+                break;
+
+            case 7:
+                document.write('<p>Usted a ingresado el mes de julio, que pertenece a la estacion ' + estacion + '</p>')
+                break;
+
+            case 8:
+                document.write('<p>Usted a ingresado el mes de agosto, que pertenece a la estacion ' + estacion + '</p>')
+                break;
+
+            case 9:
+                document.write('<p>Usted a ingresado el mes de septiembre, que pertenece a la estacion ' + estacion + '</p>')
+                break;
+
+            case 10:
+                document.write('<p>Usted a ingresado el mes de octubre, que pertenece a la estacion ' + estacion + '</p>')
+                break;
+                
+            case 11:
+                document.write('<p>Usted a ingresado el mes de noviembre, que pertenece a la estacion ' + estacion + '</p>')
+                break;
+
+            case 12:
+                document.write('<p>Usted a ingresado el mes de diciembre, que pertenece a la estacion ' + estacion + '</p>')
+                break;
+            
+            default:
+                document.write('<p>Numero ingresado inválido</p>')
+                break;
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

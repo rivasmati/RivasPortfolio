@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 9</title>
+    
+    <script>
+        var numero1 = +prompt("Ingresa un numero")
+        var numero2 = +prompt("Ingresa otro numero")
+        var resultado
+
+        if (numero1 %2 == 0 && numero2 %2 == 0) {
+            resultado = numero1 * numero2
+            document.write('<p>El resultado de la multiplación es ' + resultado + '</p>')
+        }
+        else{
+            resultado = numero1 + numero2
+            document.write('<p>El resultado de la suma es ' + resultado + '</p>')
+        }
+        if (resultado %3 == 0) {
+            document.write('<p>Ademas, el resultado es multiplo de 3</p>')
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
